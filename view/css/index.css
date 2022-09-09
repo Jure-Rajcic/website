@@ -1,0 +1,64 @@
+body{
+    margin: 0%;
+    background-color: #191921;
+    margin: 2vh;
+}
+
+
+p{
+    color: white;
+    font-size: medium;
+    background: linear-gradient(to left, white 50%, #191921 50%) right;
+    background-size: 200%;
+    animation: fade 1.5s forwards;
+}
+@keyframes fade {
+    to {
+        background-position: left;
+    }
+}
+
+video{
+    width: 60%;
+}
+
+
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.frame {
+    background-color: white;
+    border: solid black 4px;
+    padding: 2vh;
+}
+
+.container{
+    width: 70%;
+    height: auto;
+    margin: auto;
+}
+
+.sidebar {
+    width: 10%;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    margin: 5px;
+}

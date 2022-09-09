@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offer me</title>
+
+    <link rel="stylesheet" href="./../css/index.css">
+    <link rel="stylesheet" href="./../css/email.css">
+    <script src="./../../controller/contact.js"></script>
+    <script src="./../../model/contact.js"></script>
+
+
+</head>
+
+<body>
+
+    <div class="column container" style=" margin-top: 20vh;">
+        <input type="text" id="job" placeholder="👨‍💻 Job (eg. flutter developer)">
+        <textarea id="message" placeholder="💬 What do I need to know (eg. ML, git, ...)"></textarea>
+
+        <input type="text" id="salary" placeholder="💶 Salary in €">
+        <button type="button" class="input" onclick="calculateOffer()">TRY</button>
+        
+        <br>
+
+        <div class="container row locked image_container" style=" margin-top: 5%;">
+            <a href="https://github.com/Jure-Rajcic?tab=repositories">
+                <img src="./../../assets/images/github.png" style="height: 6vh;">
+            </a>    
+        </div>
+        <br>
+        <div class="container row locked image_container">
+                <a href="https://www.linkedin.com/in/jure-rajcic-67069524a/">
+                    <img src="./../../assets/images/linkedin.png" style="height: 6vh;">
+                </a>
+        </div>
+        <br>
+
+        <div id="error" class="container row locked" style=" align-items: center; justify-content: space-evenly;">
+            <p> ❌ Sorry I think that isn't good enough for me </p>
+        </div>
+
+        <p>Copyright 2022 all rights reserved. Jure Rajcic</p>
+    </div>
+
+</body>
+
+</html>

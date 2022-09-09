@@ -1,0 +1,14 @@
+[
+    {
+        "description": "This website was written in html, css and javascript using mvc architecture. In my experience, companies do not really care about github repos, so I decided to present my work here with short videos. The design is very simple, just use the arrows to see the next project and click on the video if you want to see more. Try it now, click on the video above ⬆️.",
+        "gameplay_name": "stranica.mov"
+    },
+    {
+        "description": "Sprouts is one of my first floodlight applications to experiment with the mvvm architecture. The application has a black background on which you can draw in 3 different colors. The idea that inspired me to make something like this came from my youth, when we played simple games like Sprouts and Cris-Cross on paper.",
+        "gameplay_name": "sprouts.mov"
+    },
+    {
+        "description": "Treseta app is a 2D card game written in Flutter that uses a firebase database. Game rules you can find online, and features that I implemented were features that exist in real game and don't exist in online versions of games. Currently, the game doesn't support a single player mode, because  my lack of knowledge of the bot's behavior. The future plan for this game is to make AI-driven bots with genetic algorithms to see how the pros would play.",
+        "gameplay_name": "treseta.mov"
+    }
+]
